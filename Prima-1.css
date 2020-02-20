@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Muli', sans-serfit;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+	color: #fff;
+	font-family: 'Muli', sans-serfit !important;
+}
+
+hr {
+	width: 500px !important;
+	border: 2px solid #E6F600 !important;
+	border-radius: 2px;
+}
+
+img {
+	border-radius: 5px;
+}
+
+header {
+	background-image: url(img/6060.jpg);
+	background-repeat: round;
+	min-height: 700px;
+	width: 100%;
+	text-align: center;
+	background-attachment: relative;
+	background-size: 100%;
+
+	-wepkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*.navbar-brand img {
+	top: 5px;
+	position: relative;
+	width: 350px;
+}*/
+@media(min-width: 701px) {
+	.navbar-brand img {
+		top: 5px;
+		position: relative;
+		width: 350px;
+	}
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+.glav {
+	margin-top: 200px;
+}
+
+/***********************************Блок 1***************************************************/
+#section_1 {
+	background: black;
+	width: 100%;
+	margin-top: -25px;
+	text-align: center;
+}
+
+#section_1 section {
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+
+#section_1 section h1 {
+	font-size: 4em;
+}
+
+#section_1 section ul {
+	font-weight: 500;
+	/*насыщенность текста*/
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 2em;
+	color: #fff
+}
+
+/***********************************Блок 2***************************************************/
+#section_2 {
+	background-image: url(img/6661.jpg);
+	background-repeat: round;
+	width: 100%;
+	min-height: 700px;
+	text-align: center;
+
+	background-attachment: relative;
+	background-size: 100%;
+
+	-wepkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#section_2 section {
+	padding-bottom: 300px;
+}
+
+#section_2 section .container {
+	top: 100px;
+	position: relative;
+}
+
+#section_2 section .photo {
+	border: 5px solid silver;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+#section_2 section .thumb img {
+	-webkit-filter: grayscale(0);
+	filter: none;
+}
+
+#section_2 section .thumb img:hover {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+
+#section_2 section .container img {
+	width: 100%;
+	background-size: cover;
+}
+
+/***********************************Блок 3***************************************************/
+#section_3 {
+	background: black;
+	width: 100%;
+	text-align: center;
+}
+
+#section_3 section {
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
